@@ -4,7 +4,7 @@ TheDictionary---ChromeExtension
 #API used: 
 http://developer.wordnik.com/
 
-#Steps to install:
+<b>Steps to install:<b>
 
 1. Extract the folder to any location.
 
