@@ -1,10 +1,10 @@
 TheDictionary---ChromeExtension
 ===============================
 
-#API used: 
+<h3>API used:</h3>
 http://developer.wordnik.com/
 
-<b>Steps to install:<b>
+<h3>Steps to install:</h3>
 
 1. Extract the folder to any location.
 
