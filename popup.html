@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>The Dictionary</title>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript" src="jqueryui.js"></script>
+
+<script type="text/javascript" src="dictionary.js"></script>
+
+<style type="text/css">
+
+h1{
+
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: #000000;
+
+}
+
+body{
+
+	width:350px;
+	border-radius: 10px;
+	background:#e8e8e8
+
+}
+
+#input{
+
+	margin:10px;
+	margin-left:10px;
+}
+
+#word{
+
+	-webkit-box-shadow: 0px 0px 10px #505050;
+	padding:15px;
+	border-radius: 5px;
+	font-size:20px;
+	margin-bottom:15px;
+
+}
+
+button {
+
+  	  width:75px;
+  	  height:48px;
+  	  line-height:26px;
+  	  border: 2px solid #f5f5f5;
+  	  border-radius: 50%;
+  	  color:#f5f5f5;
+  	  text-align:center;
+  	  text-decoration:none;
+  	  background: #464646;
+  	  box-shadow: 0 0 3px #a0a0a0;
+  	  font-size:20px;
+  	  font-weight:bold;
+   	  margin-bottom:15px;
+
+}
+
+button:hover {
+
+    	background: #262626;
+
+}
+
+#tooltipxyz{
+
+   	padding:20px;
+	display:none;
+  	color: #ffffff; 
+  	font-family:verdana; 
+  	font-style: italic;
+  	font-size: 15px;
+  	background-color:#404040;
+  	box-shadow: 10px 7px 5px #a0a0a0;
+  	margin-top: 20px;
+	
+
+}
+
+h2{
+
+	text-align: left;
+	font-family: serif;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: #000000;
+    	margin-top: 0px;
+
+}
+
+h4{
+
+	text-align: right;
+	font-family: serif;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: #000000;
+    	margin-top: 15px;
+
+}
+
+</style>
+
+</head>
+
+<body style="height:400px; width:400px;">
+
+	<h1>"The Dictionary"</h1>
+
+   	<input id="word" type="text" name="word" value="Enter word"/>
+
+	<button type="button">Click</button>
+
+	<h2>Meaning:</h2>
+	
+	<div id="tooltipxyz"></div>
+
+	<script type="text/javascript" src="dictionary.js"></script>
+
+	<h4>By: Karan Dev<br>
+	4th year, CS, UPTU.<br>
+	Email: karandev43@gmail.com
+	</h4>
+
+</body>
+
+</html>
