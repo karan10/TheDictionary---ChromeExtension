@@ -1,8 +1,8 @@
 TheDictionary---ChromeExtension
 ===============================
-Readme:
 
-#API used: http://developer.wordnik.com/
+#API used: 
+http://developer.wordnik.com/
 
 #Steps to install:
 
@@ -32,7 +32,7 @@ I'll be happy to get feedback.
 
 #Contact me:
 
-Karan Dev 
-4th year, Computer Science,
-JRE Group of Institutions, UPTU.
+Karan Dev<br>
+4th year, Computer Science,<br>
+JRE Group of Institutions, UPTU.<br>
 Email: karandev43@gmail.com, e11cs.karan.dev@jre.edu.in
