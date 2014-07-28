@@ -1,4 +1,4 @@
-TheDictionary---ChromeExtension
+TheDictionary-ChromeExtension
 ===============================
 
 <h3>API used:</h3>
