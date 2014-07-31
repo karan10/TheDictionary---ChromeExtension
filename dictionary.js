@@ -16,11 +16,17 @@ $("button").click(function callmeaning(){
 
     var search = $('#word').val();
 
+    var firstChar = search.charAt(0);
 
     var lastChar = search.substr(search.length - 1);
 
+	if(firstChar == " ")
+	    search = search.slice(1,search.length);
+
         if(lastChar == " ")
             search = search.slice(0,-1)
+
+	search = search.toLowerCase();
           
         var meaning="";
 
